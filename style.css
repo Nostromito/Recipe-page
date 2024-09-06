@@ -16,10 +16,10 @@
     --outfit-font-weight-600: normal;
     --outfit-font-weight-700: bold;
 
-    --font-size-200: 14px;
-    --font-size-215: 15px;
-    --font-size-320: 22px;
-    --font-size-590: 40px;
+    --font-size-200: 0.875rem;
+    --font-size-215: 0.938rem;
+    --font-size-320: 1.375rem;
+    --font-size-590: 2rem;
 }
 
 *, *::before, *::after {
@@ -50,7 +50,7 @@ h2 {
 
 p, li, h4 {
     font-family: var(--text-font-para);
-    line-height: 22px;
+    line-height: 1.9;
     font-weight: var(--outfit-font-weight-400);
     color: var(--small-text-color);
 }
@@ -67,6 +67,7 @@ p, li, h4 {
     padding: 16px 0px 16px 37.5px;
     font-size: var(--font-size-590);
     font-family: var(--text-font-header), sans-serif;
+    color: var(--bold-text-color);
 }
 
 .header p {
